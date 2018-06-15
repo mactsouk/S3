@@ -5,6 +5,6 @@ blocks:
   - build:
       jobs:
 #        - name: A Job
-          commands:
-            - echo $SEMAPHORE_PIPELINE_ID
-            - echo "Hello World!"
+          - commands:
+             - echo $SEMAPHORE_PIPELINE_ID
+             - echo "Hello World!"
