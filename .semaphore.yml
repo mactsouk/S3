@@ -4,7 +4,7 @@ semaphore_image: standard
  blocks:
   - name: This is a Build
     build:	    
-     jobs:
+     - jobs:
        commands:
          - echo $SEMAPHORE_PIPELINE_ID
          - env
