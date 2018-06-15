@@ -2,9 +2,9 @@ version: "v1.0"
 name: Basic YAML configuration file example.
 semaphore_image: standard
 blocks:
- - name: A Job
    build:
       jobs:
+        - name: A Job
           commands:
             - echo $SEMAPHORE_PIPELINE_ID
             - echo "Hello World!"
