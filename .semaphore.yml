@@ -1,10 +1,10 @@
 version: "v1.0"
-name: test
+name: Basic YAML configuration file example.
 semaphore_image: standard
- blocks:
-   - build:	    
+blocks:
+- build:
       jobs:
         - name: My Semaphore 2.0 job
           commands:
-           - echo $SEMAPHORE_PIPELINE_ID
-           - env
+            - echo $SEMAPHORE_PIPELINE_ID
+            - echo "Hello World!"
