@@ -4,7 +4,7 @@ semaphore_image: standard
 blocks:
   - build:
       jobs:
-        - name: A Job
+#        - name: A Job
           commands:
             - echo $SEMAPHORE_PIPELINE_ID
             - echo "Hello World!"
