@@ -1,0 +1,10 @@
+version: "v1.0"
+name: full test
+semaphore_image: standard
+ blocks:
+  - name: This is Build
+    build:	    
+     jobs:
+       commands:
+         - echo $SEMAPHORE_PIPELINE_ID
+         - env
