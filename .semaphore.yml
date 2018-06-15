@@ -1,9 +1,9 @@
 version: "v1.0"
-name: full test
+name: test
 semaphore_image: standard
  blocks:
     - build:	    
       jobs:
-       commands:
+       - commands:
          - echo $SEMAPHORE_PIPELINE_ID
          - env
