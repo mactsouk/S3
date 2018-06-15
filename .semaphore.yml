@@ -2,7 +2,7 @@ version: "v1.0"
 name: full test
 semaphore_image: standard
  blocks:
-  - name: This is Build
+  - name: This is a Build
     build:	    
      jobs:
        commands:
