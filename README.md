@@ -1,1 +1,1 @@
-# A relatively complex S2 project
+# A nameless S2 project
